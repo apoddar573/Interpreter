@@ -1,0 +1,7 @@
+
+n := 5;
+m := 9;
+while m>=5 do 
+ m := m-1;
+ n := n*5;
+done 	

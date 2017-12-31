@@ -1,0 +1,20 @@
+
+a := 3;
+b := 4;
+d := a+b;
+
+function ret(c, d)
+begin 
+if c >= 3 then
+ if d < 4 then
+ e := c*d;
+else
+ e := c/4;
+fi
+fi
+return e;
+end
+
+
+
+c := ret(a, b)-1;

@@ -1,0 +1,12 @@
+
+n := 5;
+m := 9;
+function fact(a, b)
+begin
+while a>0 do 
+ b := b+1;
+ a := a-1;
+done
+return a*b;
+end
+n := fact(n, m)+ 5;
